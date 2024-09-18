@@ -1,5 +1,4 @@
 package entities;
-
 import lombok.*;
 
 @Getter
@@ -8,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class UnidadMedida {
-    private long id;
+public class Imagen {
+    private Long id;
     private String denominacion;
 }
